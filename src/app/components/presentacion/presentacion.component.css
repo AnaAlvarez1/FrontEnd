@@ -1,0 +1,39 @@
+.row{
+    padding: 30px;
+    margin-top: 85px;
+    margin-bottom: 50px; 
+}
+div{
+    background-color:rgb(253, 253, 253);
+    text-align: center;
+}
+
+#nombre{
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+#prof{
+    margin-top: 25px;
+}
+
+#programar{
+    width: 300px;
+
+}
+
+@media (min-width: 576px){
+    #perfil{
+        width: 300px;
+        border-top-left-radius: 40px ;
+        border-bottom-right-radius: 70px;
+        box-shadow: 5px 5px 5px black;
+        top: 600px;
+        margin-top: 10px;
+    }
+}
+#acerca{
+    margin-top: 100px;
+
+}
+
