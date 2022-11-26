@@ -11,8 +11,8 @@
         </ul>
   
         <div class="col-md-3 text-end">
-          <button type="button" class="btn btn-outline-primary me-2">Login</button>
-          <button type="button" class="btn btn-primary">Sign-up</button>
+          <button type="button" class="btn btn-outline-primary me-2" (click)="login()" *ngIf="!isLogged">Ingreso</button>
+          <button type="button" class="btn btn-outline-primary me-2" (click)="onLogOut()" *ngIf="isLogged">Cerrar sesion</button>
         </div>
     </header>
   </div>
